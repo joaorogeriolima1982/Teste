@@ -13,7 +13,7 @@ public class TelaComAbas extends JFrame {
 
     public TelaComAbas() {
         setTitle("Exemplo JTabbedPane");
-        setSize(500, 400);
+        setSize(600, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
