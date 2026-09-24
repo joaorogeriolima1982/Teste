@@ -33,8 +33,12 @@ public class TelaComAbas extends JFrame {
 
         // Aba 3
         JPanel painel3 = new JPanel();
-        painel3.add(new JTextField("Campo na Aba 3", 15));
+        painel3.add(new JTextField("Campo na Aba 3"));
         abas.addTab("Aba 3", painel3);
+        
+        JPanel painel4 = new JPanel();
+        painel4.add(new JTextField("Campo na Aba 4"));
+        abas.addTab("Aba 4", painel4);
 
         // Adiciona no JFrame
         add(abas);
